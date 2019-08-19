@@ -8,13 +8,17 @@
   padding-top: 20px;
 }
 
-.answer-text {
-  font-family: 'Roboto', sans-serif;
-}
-
 .help-img {
   margin: auto;
   width: 70%;
+}
+.img-thumbnail {
+  transition: 0.3s;
+}
+.img-thumbnail:hover {
+  border: 1px solid red;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 .help-text {
   font-family: 'Roboto', sans-serif;
@@ -52,13 +56,4 @@
   .help-text {
     min-height: 110px;
   }
-}
-
-a {
-  color: #e03535;
-}
-
-a:hover {
-  color: #e03535;
-  text-decoration: underline;
 }

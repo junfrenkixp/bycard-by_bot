@@ -26,11 +26,12 @@ header {
   background-color: #e03535;
 }
 .bg-header {
-  background: url(/static/img/arnamient.png) center repeat-x;
+  background: url(../img/arnamient.png) center repeat-x;
 }
 .logo {
   max-width: 45%;
   margin: auto;
+  user-select: none;
 }
 .headerNavbar ul {
   padding: 0;
@@ -57,6 +58,7 @@ header {
   transition: 0.3s;
   width: 162px;
   text-align: center;
+  user-select: none;
 }
 .header-button1:hover {
   color: red;
@@ -87,21 +89,6 @@ footer {
   color: #fff;
   margin-bottom: 0;
 }
-
-.promo {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;  
-}
-
-.promo a {
-  color: #e03535;
-}
-
-.promo a:hover {
-  color: #e03535;
-  text-decoration: underline;
-}
-
 @media (max-width: 1200px) {
   .headerNavbar {
     text-align: center;

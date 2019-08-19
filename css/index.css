@@ -12,7 +12,7 @@
   font-weight: 600;
   margin: 0;
 }
-.p-heading {
+.try-it {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -54,15 +54,10 @@
   box-shadow: 0 0 0 0.2rem #e0353540;
 }
 
-.openbtn:hover {
+.opentg:hover {
   background-color: #e03535;
   color: #fff;
 }
-
-.press-img {
-  max-width: 6rem;
-}
-
 
 @media (max-width: 1200px) {
   .table-center {
@@ -96,7 +91,7 @@
   .main-tittle {
     font-size: 20px;
   }
-  .p-heading {
+  .try-it {
     font-size: 20px;
   }
   .text-center {
@@ -104,11 +99,5 @@
   }
   .content-text {
     font-size: 14px;
-  }
-}
-
-@media (max-width: 576px) {
-  .press-img {
-    max-width: 4rem;
   }
 }

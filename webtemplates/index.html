@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+
+{% block styles %}
+  <!--
+  <link href="/static/css/roboto.min.css?1" rel="stylesheet">
+  <link href="/static/css/bootstrap.min.css?1" rel="stylesheet">
+  -->
+  <link href="/static/css/index.min.css?10" rel="stylesheet">
+  <!--<link href="/static/css/base.css?3" rel="stylesheet">-->
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="main-block">
+    <p class="main-tittle">Унікальны бот для Telegram, які дазваляе набываць квіткі ў кінатэатрах Беларусі не выходзячы з любімага мэсэнджэра</p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="table-center">
+          <div class="text-center">
+            <div class="icon">
+              <img src="static/icon/icon-speed.png?1">
+            </div>
+            <div class="content-text">
+              <p class="content-text-h">Хуткі і зручны інтерфейс</p>
+              <p>Праца з ботам хуткая і інтуітыўна зразумелая</p>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="icon">
+              <img src="static/icon/icon-afisha.png?1">
+            </div>
+            <div class="content-text">
+              <p class="content-text-h">Афіша</p>
+              <p>Зручны пошук па афішы. Артыкулы па кожнаму фільму ў Telegra.ph</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 align-self-center d-none d-md-block">
+        <div class="image-ph">
+          <img src="static/img/mockup.png" alt="ByCard By Bot screenshot">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="table-center">
+          <div class="text-center">
+            <div class="icon">
+              <img src="static/icon/icon-city.png?1">
+            </div>
+            <div class="content-text">
+              <p class="content-text-h">Купля квіткоў у 25 гарадах Беларусі</p>
+              <p>Ніякіх дадатковых камісій ад бота, толькі ад ByCard. Аплата адбываецца на сайце плацёжнай сістэмы</p>
+            </div>
+          </div>
+          <div class="text-center">
+            <div class="icon">
+              <img src="static/icon/icon-seat.png?1">
+            </div>
+            <div class="content-text">
+              <p class="content-text-h">Схемы залаў</p>
+              <p>Схема залы для кожнага кінатэатра, зручны выбар месцаў</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="p-heading">Пра бота пішуць</p>
+    <div class="row">
+      <div class="col">
+        <div class="media mb-2">
+          <img class="mr-3 rounded-circle img-fluid press-img align-self-center" src="/static/img/palchys.jpg">
+          <div class="media-body content-text pt-0">
+            <p class="mb-1 ml-0 mr-0 content-text-h">Эдуард Пальчыс</p>
+            <p class="mb-1">"Один молодой парень самостоятельно и без чьей-либо помощи разработал крутой бот на родном языке для покупки билетов в кино. Работает в 25 городах Беларуси. С радостью его презентуем."</p>
+            <div class="row">
+              <div class="col-md-4">
+                <a class="btn btn-my btn-block btn-outline openbtn" role="button" href="https://twitter.com/1863x/status/1029347913992953856">Адкрыць у Twitter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="media mb-2">
+          <img class="mr-3 img-fluid press-img align-self-center" src="/static/img/citydog.png">
+          <div class="media-body content-text pt-0">
+            <p class="mb-1 ml-0 mr-0 content-text-h">CityDog.by</p>
+            <p class="mb-1">"Минский студент сделал телеграм-бота для продажи билетов в кино"</p>
+            <div class="row">
+              <div class="col-md-4">
+                <a class="btn btn-my btn-block btn-outline openbtn" role="button" href="https://citydog.by/post/zaden-bot-telegram/">Чытаць артыкул</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="media">
+          <img class="mr-3 img-fluid press-img align-self-center" src="/static/img/ctv.png">
+          <div class="media-body content-text pt-0">
+            <p class="mb-1 ml-0 mr-0 content-text-h">Сталічнае тэлебачанне</p>
+            <p class="mb-1">Утро. Студия хорошего настроения. 11.09.2018</p>
+            <!--<div class="row">
+              <div class="col-md-4">
+                <a class="btn btn-my btn-block btn-outline openbtn" role="button" href="https://citydog.by/post/zaden-bot-telegram/">Чытаць артыкул</a>
+              </div>
+            </div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="p-heading">Паспрабуйце зараз</p>
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <a class="btn btn-my btn-block btn-outline openbtn" role="button" href="https://t.me/bycardbybot">Адкрыць у Telegram</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

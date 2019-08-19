@@ -1,0 +1,64 @@
+.heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.answer-text {
+  font-family: 'Roboto', sans-serif;
+}
+
+.help-img {
+  margin: auto;
+  width: 70%;
+}
+.help-text {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.help-content .help-img {
+  max-width: 47%;
+}
+@media (max-width: 991px) {
+  .help-img {
+    width: 90%;
+  }
+  .help-content .help-img {
+    max-width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .help-content .help-img {
+    max-width: 90%;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .help-text {
+    height: 100%;
+    margin-bottom: 16px;
+  }
+  .help-text:last-child {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  .help-text {
+    min-height: 110px;
+  }
+}
+
+a {
+  color: #e03535;
+}
+
+a:hover {
+  color: #e03535;
+  text-decoration: underline;
+}

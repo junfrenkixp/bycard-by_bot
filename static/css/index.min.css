@@ -1,0 +1,145 @@
+/*! CSS Used from: https://bycardbybot.tk/static/css/bootstrap.min.css?1 */
+*,::after,::before{box-sizing:border-box;}
+footer,header,main{display:block;}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff;}
+p{margin-top:0;margin-bottom:1rem;}
+ul{margin-top:0;margin-bottom:1rem;}
+a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects;}
+a:hover{color:#0056b3;text-decoration:underline;}
+img{vertical-align:middle;border-style:none;}
+.img-fluid{max-width:100%;height:auto;}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col,.col-lg-6,.col-md-12,.col-md-4{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px;}
+.col{-ms-flex-preferred-size:0;flex-basis:0;-ms-flex-positive:1;flex-grow:1;max-width:100%;}
+@media (min-width:768px){
+.col-md-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%;}
+.col-md-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+}
+@media (min-width:992px){
+.col-lg-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+}
+.btn{display:inline-block;font-weight:400;text-align:center;white-space:nowrap;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+@media screen and (prefers-reduced-motion:reduce){
+.btn{transition:none;}
+}
+.btn:focus,.btn:hover{text-decoration:none;}
+.btn:focus{outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25);}
+.btn:disabled{opacity:.65;}
+.btn:not(:disabled):not(.disabled){cursor:pointer;}
+.btn-block{display:block;width:100%;}
+.media{display:-ms-flexbox;display:flex;-ms-flex-align:start;align-items:flex-start;}
+.media-body{-ms-flex:1;flex:1;}
+.rounded-circle{border-radius:50%!important;}
+.d-none{display:none!important;}
+@media (min-width:768px){
+.d-md-block{display:block!important;}
+}
+.justify-content-center{-ms-flex-pack:center!important;justify-content:center!important;}
+.align-items-center{-ms-flex-align:center!important;align-items:center!important;}
+.align-self-center{-ms-flex-item-align:center!important;align-self:center!important;}
+.mr-0{margin-right:0!important;}
+.ml-0{margin-left:0!important;}
+.mb-1{margin-bottom:.25rem!important;}
+.mb-2{margin-bottom:.5rem!important;}
+.mr-3{margin-right:1rem!important;}
+.pt-0{padding-top:0!important;}
+.text-center{text-align:center!important;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+img{page-break-inside:avoid;}
+p{orphans:3;widows:3;}
+body{min-width:992px!important;}
+.container{min-width:992px!important;}
+}
+/*! CSS Used from: https://bycardbybot.tk/static/css/index.css?2 */
+.main-block{font-family:"Roboto", sans-serif;padding-top:30px;padding-bottom:30px;background-color:#fcfcf;}
+.main-tittle{text-align:center;padding-bottom:40px;padding-top:40px;font-size:24px;font-weight:600;margin:0;}
+.p-heading{text-align:center;padding-top:40px;padding-bottom:20px;font-size:24px;font-weight:600;margin:0;}
+.image-ph{max-width:80%;margin:auto;padding-top:10px;padding-bottom:10px;}
+.table-center{top:-50%;transform:translate(0, 15%);}
+.text-center{margin-top:70px;height:186px;}
+.text-center:first-child{margin-top:0;}
+.content-text{padding-top:10px;}
+.content-text-h{font-size:21px;margin:5px;}
+.btn-my{border-color:#e03535;color:#e03535;}
+.btn-my:focus{box-shadow:0 0 0 0.2rem #e0353540;}
+.openbtn:hover{background-color:#e03535;color:#fff;}
+.press-img{max-width:6rem;}
+@media (max-width: 1200px){
+.table-center{top:-50%;transform:translate(0, 4%);}
+.text-center{margin-top:50px;height:206px;}
+}
+@media (max-width: 991px){
+.image-ph{max-width:100%;}
+.text-center{margin-top:50px;height:180px;}
+.content-text{font-size:15px;}
+.icon img{max-width:57px;}
+}
+@media (max-width: 768px){
+.text-center{margin:0;}
+.main-tittle{font-size:20px;}
+.p-heading{font-size:20px;}
+.text-center{height:200px;}
+.content-text{font-size:14px;}
+}
+@media (max-width: 576px){
+.press-img{max-width:4rem;}
+}
+/*! CSS Used from: https://bycardbybot.tk/static/css/base.css?3 */
+body{margin:0;padding:0;}
+img{max-width:100%;}
+li{padding:0;}
+main{margin-top:20px;margin-bottom:20px;}
+header{font-family:'Roboto', sans-serif;background-color:#e03535;}
+.bg-header{background:url(https://bycardbybot.tk/static/img/arnamient.png) center repeat-x;}
+.logo{max-width:45%;margin:auto;}
+.headerNavbar ul{padding:0;margin:0;}
+.headerNavbar li{display:inline-block;}
+.headerNavbar ul li{border-right:1px solid #fff;}
+.headerNavbar ul li:last-child{border-right:none;}
+.header-button1{display:inline-block;color:#fff;margin:0;padding:30px;margin-left:-4px;font-size:18px;-webkit-transition:0.3s;-o-transition:0.3s;transition:0.3s;width:162px;text-align:center;}
+.header-button1:hover{color:red;background-color:#fff;opacity:0.7;text-decoration:none;}
+footer{font-family:'Roboto', sans-serif;padding:0;background-color:#e03535;text-align:center;}
+.bd-footer{padding:3rem 0;font-size:95%;}
+.bd-footer a{color:#fff;transition:0.1s;}
+.bd-footer a:hover{color:#fff;text-decoration:underline;transition:0.1s;}
+.bd-footer p{color:#fff;margin-bottom:0;}
+@media (max-width: 1200px){
+.headerNavbar{text-align:center;margin-left:-90px;}
+.header-button1{padding:auto;font-size:20px;}
+.logo{margin:auto;}
+}
+@media (max-width: 991px){
+.logo{margin:auto;}
+.headerNavbar{margin:auto;margin-bottom:40px;}
+.header-button1{width:142px;padding-left:24px;}
+}
+@media (max-width: 768px){
+.header-button1{width:122px;padding:20px;padding-left:17px;font-size:18px;}
+.headerNavbar{margin-top:-20px;margin-bottom:20px;}
+}
+@media (max-width: 439px){
+.header-button1{width:100px;padding:10px;padding-left:8px;font-size:15px;}
+}
+@media (max-width: 360px){
+.header-button1{width:80px;padding:5px;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}
+@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}
+@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}

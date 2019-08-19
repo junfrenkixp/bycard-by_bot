@@ -1,0 +1,71 @@
+.btn-my {
+  background-color: #e03535;
+  color: white;
+}
+
+.btn-my:focus {
+  box-shadow: 0 0 0 0.2rem #e0353540;
+}
+
+.formborder {
+  padding: 24px;
+  font-family: "Roboto", sans-serif;
+  border-top-color: #e03535 !important;
+    border-top-style: solid !important;
+    border-top-width: 1px !important;
+    border-right-color: #e03535 !important;
+    border-right-style: solid !important;
+    border-right-width: 1px !important;
+    border-bottom-color: #e03535 !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important;
+    border-left-color: #e03535 !important;
+    border-left-style: solid !important;
+    border-left-width: 1px !important;
+    border-image-source: initial !important;
+    border-image-slice: initial !important;
+    border-image-width: initial !important;
+    border-image-outset: initial !important;
+    border-image-repeat: initial !important;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.form-control:focus {
+  border-color: #e0353540; 
+  box-shadow: 0 0 0 0.1rem #e0353540;
+}
+
+.opentg:hover {
+  color: #fff;
+}
+.formlink {
+  color: #e03535;
+}
+.formlink:hover {
+  color: #e03535;
+  text-decoration: underline;
+}
+.loading {
+  background-color: #e03535;
+}
+.submitbtn {
+  margin-bottom: 16px;
+}
+label {
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+  .alert {
+    font-size: 14px;
+  }
+}

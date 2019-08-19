@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+li {
+  padding: 0;
+}
+
+main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.vert-center {
+  min-height: 100%;
+  min-height: 60vh; 
+  display: flex;
+  align-items: center;
+}
+
+header {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e03535;
+}
+.bg-header {
+  background: url(/static/img/arnamient.png) center repeat-x;
+}
+.logo {
+  max-width: 45%;
+  margin: auto;
+}
+.headerNavbar ul {
+  padding: 0;
+  margin: 0;
+}
+.headerNavbar li {
+  display: inline-block;
+}
+.headerNavbar ul li {
+  border-right: 1px solid #fff;
+}
+.headerNavbar ul li:last-child {
+  border-right: none;
+}
+.header-button1 {
+  display: inline-block;
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+  margin-left: -4px;
+  font-size: 18px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  width: 162px;
+  text-align: center;
+}
+.header-button1:hover {
+  color: red;
+  background-color: #fff;
+  opacity: 0.7;
+  text-decoration: none;
+}
+footer {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  background-color: #e03535;
+  text-align: center;
+}
+.bd-footer {
+  padding: 3rem 0;
+  font-size: 95%;
+}
+.bd-footer a {
+  color: #fff;
+  transition: 0.1s;
+}
+.bd-footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+  transition: 0.1s;
+}
+.bd-footer p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.promo {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;  
+}
+
+.promo a {
+  color: #e03535;
+}
+
+.promo a:hover {
+  color: #e03535;
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+  .headerNavbar {
+    text-align: center;
+    margin-left: -90px;
+  }
+  .header-button1 {
+    padding: auto;
+    font-size: 20px;
+  }
+  .logo {
+    margin: auto;
+  }
+}
+@media (max-width: 991px) {
+  .logo {
+    margin: auto;
+  }
+  .headerNavbar {
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .header-button1 {
+    width: 142px;
+    padding-left: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .header-button1 {
+    width: 122px;
+    padding: 20px;
+    padding-left: 17px;
+    font-size: 18px;
+  }
+  .headerNavbar {
+
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 439px) {
+  .header-button1 {
+    width: 100px;
+    padding: 10px;
+    padding-left: 8px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 360px) {
+  .header-button1 {
+    width: 80px;
+    padding: 5px;
+  }
+}
